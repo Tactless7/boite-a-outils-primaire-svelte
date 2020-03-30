@@ -1,10 +1,11 @@
 <script>
-  export let tutu = '';
   export let disabled = false;
 </script>
 
 <div class="button" on:click>
-  <button {disabled}>{ tutu }</button>
+  <button {disabled}>
+    <slot />
+  </button>
 </div>
 
 <style lang="stylus">
