@@ -7,7 +7,7 @@
   import { createListAdditions } from '../../lib/additions.js';
 
   let operations = [];
-  let opsNumber = 10;
+  let opsNumber = 5;
   let disabled = false;
   let correction = false;
 
