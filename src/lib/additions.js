@@ -6,7 +6,7 @@ export const createListAdditions = number => {
   return [...Array(number)].map(() => {
     return {
       ...createAddition(MIN, MAX),
-      answer: '10',
+      answer: '',
     }
   });
 };

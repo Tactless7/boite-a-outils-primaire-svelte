@@ -1,4 +1,4 @@
 /node_modules/
 /public/build/
-
+/actions-runner/
 .DS_Store
